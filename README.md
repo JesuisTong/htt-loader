@@ -5,12 +5,12 @@ it's a dynamic js loader for webpack
 for webPack
 ```js
 {
-	loader: 'htt-loader',
-	options: {
-		lazy: true,
-		name: 'xx',
-		regExp: 'abc/xx/(.*)/',
-	}
+  loader: 'htt-loader',
+  options: {
+    lazy: true,
+    name: 'xx',
+    regExp: 'abc/xx/(.*)/',
+  }
 }
 ```
 由于实际上使用的还是promise异步函数，所以你应该还需要一个js着陆的Component，拿react来说的话例如以下这个简单的栗子：
