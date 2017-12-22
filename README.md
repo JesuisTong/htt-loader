@@ -1,7 +1,10 @@
 # htt-loader
-it's a dynamic js loader for webpack
+it's a dynamic js loader for React
 
 ## usage
+```bash
+npm install htt-loader
+```
 for webPack
 ```js
 {
