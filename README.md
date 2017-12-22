@@ -17,6 +17,7 @@ for webPack
 ```js
 import { Component } from 'react';
 
+// 这是一个demo给被loader封装过的js的React.Component
 class Bundle extends Component {
   state = {
     // short for "module" but that's a keyword in js, so "mod"
@@ -50,5 +51,5 @@ class Bundle extends Component {
 
 ## caution
 使用的时候必须遵守的规则
-- 需要使用babel的syntax-dynamic-import
+- 需要在.babelrc加入syntax-dynamic-import规则用来开启动态加载语法
 
