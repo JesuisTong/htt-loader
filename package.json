@@ -1,5 +1,5 @@
 {
-  "name": "tongz-hot-loader",
+  "name": "htt-loader",
   "version": "0.0.1",
   "description": "if you want to lazy-load js file, may you need it",
   "main": "index.js",
